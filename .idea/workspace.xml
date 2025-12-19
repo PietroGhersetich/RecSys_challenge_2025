@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a05fc1c-a2a9-4851-bc08-800a8a52e255" name="Changes" comment="Folders update" />
+    <list default="true" id="2a05fc1c-a2a9-4851-bc08-800a8a52e255" name="Changes" comment="Added first Recall@50 studies" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +57,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tuning_results/recall@50" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -81,7 +82,7 @@
       <workItem from="1766155400299" duration="201000" />
       <workItem from="1766155604780" duration="22000" />
       <workItem from="1766155633063" duration="57000" />
-      <workItem from="1766155700690" duration="1379000" />
+      <workItem from="1766155700690" duration="2019000" />
     </task>
     <task id="LOCAL-00001" summary="First commit. Framework clone">
       <option name="closed" value="true" />
@@ -107,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766156864011</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added first Recall@50 studies">
+      <option name="closed" value="true" />
+      <created>1766157109974</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1766157109975</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +137,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First commit. Framework clone" />
     <MESSAGE value="Folders update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Folders update" />
+    <MESSAGE value="Added first Recall@50 studies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added first Recall@50 studies" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
