@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2a05fc1c-a2a9-4851-bc08-800a8a52e255" name="Changes" comment="First commit. Framework clone">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/RecSys_challenge_25.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot.data.migration.ask.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CythonCompiler/compile_script.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CythonCompiler/run_compile_subprocess.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cython_examples/FunkSVD_fastest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cython_examples/FunkSVD_fastest.pyx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cython_examples/FunkSVD_slow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cython_examples/FunkSVD_slow.pyx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cython_examples/SLIM_MSE_fastest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cython_examples/SLIM_MSE_fastest.pyx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cython_examples/SLIM_MSE_slow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cython_examples/SLIM_MSE_slow.pyx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cython_examples/isPrime.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cython_examples/isPrime.pyx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cython_examples/isPrime_nochecks.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cython_examples/isPrime_nochecks.pyx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cython_examples/isPrime_slow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cython_examples/isPrime_slow.pyx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_manager/DataPostprocessing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_manager/DataPostprocessing_K_Cores.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_manager/DataReader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_manager/DataReader_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_manager/DataSplitter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_manager/DataSplitter_Holdout.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_manager/DataSplitter_leave_k_out.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_manager/Dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_manager/DatasetMapperManager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_manager/IncrementalSparseMatrix.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_manager/Movielens/Movielens100KReader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_manager/Movielens/Movielens10MReader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_manager/Movielens/Movielens1MReader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_manager/Movielens/Movielens20MReader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_manager/Movielens/MovielensHetrec2011Reader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_manager/Movielens/_utils_movielens_parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_manager/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_manager/TagPreprocessing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_manager/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_manager/data_consistency_check.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_manager/run_clean_split_data_files.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_manager/split_functions/split_train_validation_cold_items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_manager/split_functions/split_train_validation_leave_k_out.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_manager/split_functions/split_train_validation_random_holdout.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Evaluation/Evaluator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Evaluation/metrics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HyperparameterTuning/SearchAbstractClass.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HyperparameterTuning/SearchBayesianSkopt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HyperparameterTuning/SearchSingleCase.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HyperparameterTuning/run_hyperparameter_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks_utils/Compute_Similarity_Python.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks_utils/Cosine_Similarity_Cython.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks_utils/Cosine_Similarity_Cython.cpython-36m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks_utils/Cosine_Similarity_Cython.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks_utils/Cosine_Similarity_Cython.pyx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks_utils/Cosine_Similarity_Cython_SLOW.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks_utils/Cosine_Similarity_Cython_SLOW.cpython-36m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks_utils/Cosine_Similarity_Cython_SLOW.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks_utils/Cosine_Similarity_Cython_SLOW.pyx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks_utils/compileCython.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/BaseCBFRecommender.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/BaseMatrixFactorizationRecommender.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/BaseRecommender.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/BaseSimilarityMatrixRecommender.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/BaseTempFolder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/DataIO.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/EASE_R/EASE_R_Recommender.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/FactorizationMachines/LightFMRecommender.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/FeatureWeighting/CFW_D_Similarity_Linalg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.cp38-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.cpython-38-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/FeatureWeighting/Cython/CFW_D_Similarity_Cython.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/FeatureWeighting/Cython/CFW_D_Similarity_Cython_SGD.cp38-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/FeatureWeighting/Cython/CFW_D_Similarity_Cython_SGD.cpython-38-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/FeatureWeighting/Cython/CFW_D_Similarity_Cython_SGD.pyx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.cp38-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.cpython-38-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/FeatureWeighting/Cython/HP3_Similarity_Cython.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/FeatureWeighting/Cython/HP3_Similarity_Cython_SGD.cp38-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/FeatureWeighting/Cython/HP3_Similarity_Cython_SGD.cpython-38-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/FeatureWeighting/Cython/HP3_Similarity_Cython_SGD.pyx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/GraphBased/LightGCNRecommender.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/GraphBased/P3alphaRecommender.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/GraphBased/RP3betaRecommender.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/IR_feature_weighting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/Incremental_Training_Early_Stopping.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/KNN/ItemKNNCBFRecommender.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/KNN/ItemKNNCFRecommender.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/KNN/ItemKNNCustomSimilarityRecommender.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/KNN/ItemKNNSimilarityHybridRecommender.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/KNN/ItemKNN_CFCBF_Hybrid_Recommender.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/KNN/UserKNNCBFRecommender.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/KNN/UserKNNCFRecommender.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/KNN/UserKNN_CFCBF_Hybrid_Recommender.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/MatrixFactorization/Cython/MatrixFactorizationImpressions_Cython.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/MatrixFactorization/Cython/MatrixFactorizationImpressions_Cython_Epoch.cp38-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/MatrixFactorization/Cython/MatrixFactorizationImpressions_Cython_Epoch.cpython-38-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/MatrixFactorization/Cython/MatrixFactorizationImpressions_Cython_Epoch.pyx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.cp38-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.cpython-38-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/MatrixFactorization/IALSRecommender.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/MatrixFactorization/NMFRecommender.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/MatrixFactorization/PureSVDRecommender.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/MatrixFactorization/PyTorch/MF_MSE_PyTorch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/MatrixFactorization/PyTorch/MF_MSE_PyTorch_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/MatrixFactorization/SVDFeatureRecommender.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/Neural/MultVAERecommender.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/Neural/MultVAE_PyTorch_Recommender.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/Neural/architecture_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/NonPersonalizedRecommender.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/PredefinedListRecommender.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/Recommender_import_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/Recommender_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/SLIM/Cython/SLIM_BPR_Cython.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.cp38-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.cpython-38-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.cp38-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.cpython-38-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/SLIM/Cython/Triangular_Matrix.cp38-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/SLIM/Cython/Triangular_Matrix.cpython-38-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/SLIM/Cython/Triangular_Matrix.pyx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/SLIM/SLIMElasticNetRecommender.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/SLIM/SLIM_BPR_Python.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/Similarity/Compute_Similarity.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/Similarity/Compute_Similarity_Euclidean.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/Similarity/Compute_Similarity_Python.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/Similarity/Compute_similarity_euclidean_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/Similarity/Compute_similarity_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/Similarity/Cython/Compute_Similarity_Cython.cp38-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/Similarity/Cython/Compute_Similarity_Cython.cpython-38-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/PyTorch/Cython/DataIterator.pyx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/PyTorch/DataIterator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/PyTorch/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/seconds_to_biggest_unit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cython_example_FunkSVD.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cython_example_SLIM_MSE.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/environment-mac-m1.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/environment.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/FactorizationMachine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/amongus_meme.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/better_than_average_on_the_first_try_meme.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bob_example.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hstack_example.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ive_already_seen_it_meme.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ive_evaluated_your_performance_meme.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/random_random_everywhere_meme.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/toy_story_poster.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_all_algorithms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_compile_all_cython.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_hyperparameter_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_test_recommenders.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;PietroGhersetich&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/PietroGhersetich/RecSys_challenge_2025.git&quot;,
+    &quot;accountId&quot;: &quot;4d299f21-b70d-40b7-a72f-f94e7b050a0c&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="374ELGFisbrrEUyAFbUzkHTaWQM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.19416.19" />
+        <option value="bundled-python-sdk-337b0a7a993a-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.19416.19" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a05fc1c-a2a9-4851-bc08-800a8a52e255" name="Changes" comment="" />
+      <created>1766153886112</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1766153886112</updated>
+      <workItem from="1766153887802" duration="218000" />
+      <workItem from="1766154121943" duration="1074000" />
+      <workItem from="1766155400299" duration="201000" />
+      <workItem from="1766155604780" duration="22000" />
+      <workItem from="1766155633063" duration="57000" />
+    </task>
+    <task id="LOCAL-00001" summary="First commit. Framework clone">
+      <option name="closed" value="true" />
+      <created>1766155458620</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1766155458620</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="First commit. Framework clone" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit. Framework clone" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
