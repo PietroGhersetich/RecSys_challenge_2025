@@ -1,0 +1,11 @@
+{
+    "value": 0.40062937789802333,
+    "study_name": "RP3Beta_Optimization",
+    "trial_number": 1255,
+    "params": {
+        "topK": 50,
+        "alpha": 0.9109886441824966,
+        "beta": 0.5123438858078663,
+        "normalize_similarity": true
+    }
+}
