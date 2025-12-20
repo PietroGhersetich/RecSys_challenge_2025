@@ -1,6 +1,13 @@
 {
-    "value": -Infinity,
-    "study_name": null,
-    "trial_number": null,
-    "params": {}
+    "value": 0.39735827200668467,
+    "study_name": "item_knn_Optimization",
+    "trial_number": 491,
+    "params": {
+        "similarity": "asymmetric",
+        "topK": 16,
+        "shrink": 450,
+        "normalize": true,
+        "feature_weighting": "TF-IDF",
+        "asymmetric_alpha": 0.23966058151778322
+    }
 }
