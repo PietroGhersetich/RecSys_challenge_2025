@@ -1,6 +1,10 @@
 {
-    "value": -Infinity,
-    "study_name": null,
-    "trial_number": null,
-    "params": {}
+    "value": 0.22019002093583395,
+    "study_name": "ease_Optimization",
+    "trial_number": 1,
+    "params": {
+        "topK": 225,
+        "l2_norm": 277.9365714876519,
+        "normalize_matrix": true
+    }
 }
