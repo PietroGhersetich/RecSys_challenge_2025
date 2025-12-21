@@ -1,0 +1,10 @@
+{
+    "value": 0.2875190093809881,
+    "study_name": "SLIM_ElasticNet_Optimization",
+    "trial_number": 85,
+    "params": {
+        "topK": 847,
+        "l1_ratio": 0.006983167893562842,
+        "alpha": 0.005003175513380305
+    }
+}
