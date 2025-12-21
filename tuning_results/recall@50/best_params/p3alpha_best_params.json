@@ -1,6 +1,10 @@
 {
-    "value": -Infinity,
-    "study_name": null,
-    "trial_number": null,
-    "params": {}
+    "value": 0.37827988883399044,
+    "study_name": "p3alpha_Optimization",
+    "trial_number": 44,
+    "params": {
+        "topK": 258,
+        "alpha": 1.1738684223584688,
+        "normalize_similarity": true
+    }
 }
