@@ -1,9 +1,9 @@
 {
-    "value": 0.16867735629543631,
+    "value": 0.19997587278080534,
     "study_name": "pure_svd_item_Optimization",
-    "trial_number": 2,
+    "trial_number": 157,
     "params": {
-        "num_factors": 209,
-        "topK": 924
+        "num_factors": 35,
+        "topK": 240
     }
 }
