@@ -1,0 +1,12 @@
+{
+    "value": 0.3530459033852125,
+    "study_name": "user_knn_Optimization",
+    "trial_number": 0,
+    "params": {
+        "similarity": "tanimoto",
+        "topK": 768,
+        "shrink": 66,
+        "normalize": true,
+        "feature_weighting": "TF-IDF"
+    }
+}
