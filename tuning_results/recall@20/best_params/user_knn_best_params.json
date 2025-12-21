@@ -1,0 +1,12 @@
+{
+    "value": 0.1488853491075834,
+    "study_name": "user_knn_Optimization",
+    "trial_number": 2,
+    "params": {
+        "similarity": "dice",
+        "topK": 612,
+        "shrink": 78,
+        "normalize": true,
+        "feature_weighting": "BM25"
+    }
+}
