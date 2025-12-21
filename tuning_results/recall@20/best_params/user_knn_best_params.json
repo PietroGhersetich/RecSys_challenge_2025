@@ -1,12 +1,14 @@
 {
-    "value": 0.1488853491075834,
+    "value": 0.21742897211250328,
     "study_name": "user_knn_Optimization",
-    "trial_number": 2,
+    "trial_number": 4,
     "params": {
-        "similarity": "dice",
-        "topK": 612,
-        "shrink": 78,
+        "similarity": "tversky",
+        "topK": 317,
+        "shrink": 16,
         "normalize": true,
-        "feature_weighting": "BM25"
+        "feature_weighting": "TF-IDF",
+        "tversky_alpha": 1.8313940928712487,
+        "tversky_beta": 1.2787626620361698
     }
 }
