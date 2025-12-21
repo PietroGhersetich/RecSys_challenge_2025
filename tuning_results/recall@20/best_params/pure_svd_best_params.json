@@ -1,0 +1,8 @@
+{
+    "value": 0.18726983805592012,
+    "study_name": "pure_svd_Optimization",
+    "trial_number": 2,
+    "params": {
+        "num_factors": 147
+    }
+}
