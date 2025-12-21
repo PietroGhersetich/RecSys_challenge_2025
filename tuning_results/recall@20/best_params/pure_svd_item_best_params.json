@@ -1,6 +1,9 @@
 {
-    "value": -Infinity,
-    "study_name": null,
-    "trial_number": null,
-    "params": {}
+    "value": 0.16867735629543631,
+    "study_name": "pure_svd_item_Optimization",
+    "trial_number": 2,
+    "params": {
+        "num_factors": 209,
+        "topK": 924
+    }
 }
