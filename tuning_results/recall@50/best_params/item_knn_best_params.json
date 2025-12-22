@@ -1,13 +1,10 @@
 {
-    "value": 0.39735827200668467,
-    "study_name": "item_knn_Optimization",
-    "trial_number": 491,
+    "value": 0.39865341081675343,
+    "study_name": "item_knn_fine_tuning_Optimization",
+    "trial_number": 78,
     "params": {
-        "similarity": "asymmetric",
-        "topK": 16,
-        "shrink": 450,
-        "normalize": true,
-        "feature_weighting": "TF-IDF",
-        "asymmetric_alpha": 0.23966058151778322
+        "topK": 17,
+        "shrink": 349,
+        "asymmetric_alpha": 0.20111154633900694
     }
 }
