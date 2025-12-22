@@ -1,10 +1,10 @@
 {
-    "value": 0.21729353960982553,
+    "value": 0.21741383536312114,
     "study_name": "scaled_pure_svd_Optimization",
-    "trial_number": 202,
+    "trial_number": 1699,
     "params": {
-        "num_factors": 84,
-        "scaling_items": 0.010849343386778983,
-        "scaling_users": 0.550956983436916
+        "num_factors": 79,
+        "scaling_items": 0.010780586214930384,
+        "scaling_users": 0.5097321487623571
     }
 }
