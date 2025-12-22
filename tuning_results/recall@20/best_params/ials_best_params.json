@@ -1,0 +1,11 @@
+{
+    "value": 0.2458751569331264,
+    "study_name": "item_ials_Optimization",
+    "trial_number": 16,
+    "params": {
+        "num_factors": 93,
+        "reg": 0.0007051616691652453,
+        "alpha": 9.263090263883104,
+        "confidence_scaling": "linear"
+    }
+}
