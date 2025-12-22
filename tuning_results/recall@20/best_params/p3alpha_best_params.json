@@ -1,10 +1,10 @@
 {
-    "value": 0.21617369943917572,
+    "value": 0.23524192123212118,
     "study_name": "p3alpha_Optimization",
-    "trial_number": 0,
+    "trial_number": 267,
     "params": {
-        "topK": 856,
-        "alpha": 1.8192155298961918,
+        "topK": 188,
+        "alpha": 1.4571723217853727,
         "normalize_similarity": true
     }
 }
