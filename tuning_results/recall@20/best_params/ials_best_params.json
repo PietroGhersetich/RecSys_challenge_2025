@@ -6,6 +6,7 @@
         "num_factors": 93,
         "reg": 0.0007051616691652453,
         "alpha": 9.263090263883104,
-        "confidence_scaling": "linear"
+        "confidence_scaling": "linear",
+        "epochs": 60
     }
 }
