@@ -1,12 +1,12 @@
 {
-    "value": 0.2458751569331264,
+    "value": 0.24618389439636623,
     "study_name": "item_ials_Optimization",
-    "trial_number": 16,
+    "trial_number": 42,
     "params": {
-        "num_factors": 93,
-        "reg": 0.0007051616691652453,
-        "alpha": 9.263090263883104,
+        "num_factors": 100,
+        "reg": 1.045145243876869e-05,
+        "alpha": 10.055867094017437,
         "confidence_scaling": "linear",
-        "epochs": 60
+        "epochs": 35
     }
 }
