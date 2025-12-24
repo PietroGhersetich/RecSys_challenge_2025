@@ -1,6 +1,4 @@
 import numpy as np
-import math
-
 
 class GeneralizedUnionRecommender:
 
@@ -15,7 +13,6 @@ class GeneralizedUnionRecommender:
         safe_cutoff = cutoff if cutoff is not None and cutoff > 0 else 50
 
         quota_per_model = safe_cutoff // self.n_recommenders
-
         if quota_per_model < 1:
             quota_per_model = 1
 
@@ -35,7 +32,7 @@ class GeneralizedUnionRecommender:
                 )
                 unique_candidates.update(recs[0])
 
-            final_recommendations.append(np.array(list(unique_candidates)))
+            final_recommendations.append(np.array(list(unique_candidates), dtype=int))
 
         if return_scores:
             _, final_scores_matrix = self.recommenders[0].recommend(
