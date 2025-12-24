@@ -1,0 +1,19 @@
+{
+    "value": 0.2926811463995557,
+    "study_name": "xgboost_tuning",
+    "trial_number": 21,
+    "params": {
+        "objective": "rank:ndcg",
+        "n_estimators": 4868,
+        "learning_rate": 0.018372063889329833,
+        "reg_alpha": 9.129042742848977e-05,
+        "reg_lambda": 0.026759429296949872,
+        "max_depth": 4,
+        "max_leaves": 898,
+        "grow_policy": "depthwise",
+        "gamma": 0.4656716515651668,
+        "min_child_weight": 2.1884452039113857e-06,
+        "subsample": 0.6910733690964516,
+        "colsample_bytree": 0.4298978960781647
+    }
+}
