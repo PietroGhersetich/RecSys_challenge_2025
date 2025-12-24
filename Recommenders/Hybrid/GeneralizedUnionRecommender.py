@@ -22,12 +22,12 @@ class GeneralizedUnionRecommender:
             unique_candidates = set()
 
             for recommender in self.recommenders:
-                recs, _ = recommender.recommend(
+                recs = recommender.recommend(
                     [user_id],
                     cutoff=quota_per_model,
                     remove_seen_flag=remove_seen_flag,
                     remove_top_pop_flag=remove_top_pop_flag,
-                    return_scores=True,
+                    return_scores=False,
                     remove_custom_items_flag=remove_custom_items_flag
                 )
                 unique_candidates.update(recs[0])
