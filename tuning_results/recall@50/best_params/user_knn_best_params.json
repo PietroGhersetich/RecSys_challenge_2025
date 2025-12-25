@@ -1,10 +1,10 @@
 {
-    "value": 0.3671444777085252,
+    "value": 0.36716240832167824,
     "study_name": "user_knn_fine_tuning_Optimization",
-    "trial_number": 172,
+    "trial_number": 277,
     "params": {
-        "topK": 407,
-        "shrink": 177,
-        "asymmetric_alpha": 0.21885444635928167
+        "topK": 401,
+        "shrink": 207,
+        "asymmetric_alpha": 0.19644257243696817
     }
 }
