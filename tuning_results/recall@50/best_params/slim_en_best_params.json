@@ -1,10 +1,10 @@
 {
-    "value": 0.4488426354187408,
+    "value": 0.44885435816758923,
     "study_name": "SLIM_ElasticNet_fine_tuning_Optimization",
-    "trial_number": 123,
+    "trial_number": 217,
     "params": {
-        "topK": 2794,
-        "l1_ratio": 0.02205725594652007,
-        "alpha": 0.004006033968746747
+        "topK": 1641,
+        "l1_ratio": 0.02203653364548994,
+        "alpha": 0.00400203461216077
     }
 }
