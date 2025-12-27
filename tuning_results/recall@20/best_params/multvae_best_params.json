@@ -1,6 +1,15 @@
 {
-    "value": -Infinity,
-    "study_name": null,
-    "trial_number": null,
-    "params": {}
+    "value": 0.23641691745723023,
+    "study_name": "multvae_Optimization_noTorch",
+    "trial_number": 2,
+    "params": {
+        "n_layers": 1,
+        "layer_1": 587,
+        "learning_rate": 0.0016270769204275435,
+        "batch_size": 512,
+        "dropout": 0.532810193804285,
+        "l2_reg": 0.0008095543732110162,
+        "anneal_cap": 0.7874809790272745,
+        "total_anneal_steps": 12690
+    }
 }
