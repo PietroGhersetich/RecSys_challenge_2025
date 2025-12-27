@@ -181,7 +181,7 @@ class MultVAERecommender_PyTorch(BaseRecommender, Incremental_Training_Early_Sto
 
     def _compute_item_score(self, user_id_array, items_to_compute = None):
 
-        u = torch.LongTensor(user_id_array)
+        u = user_id_array
 
         # Transferring only the sparse structure to reduce the data transfer
         user_batch_tensor = self.URM_train[u]
@@ -295,17 +295,11 @@ class MultVAERecommender_PyTorch(BaseRecommender, Incremental_Training_Early_Sto
 
         for _ in batch_iterator:
 
-            # Clear previously computed gradients
             self._optimizer.zero_grad()
 
-            u = torch.LongTensor(np.random.choice(self.warm_user_ids, size=self.batch_size))
+            u = np.random.choice(self.warm_user_ids, size=self.batch_size)
 
-            # Transferring only the sparse structure to reduce the data transfer
             user_batch_tensor = self.URM_train[u]
-            user_batch_tensor = torch.sparse_csr_tensor(user_batch_tensor.indptr,
-                                                        user_batch_tensor.indices,
-                                                        user_batch_tensor.data,
-                                                        size=user_batch_tensor.shape, dtype=torch.float32, device=self.device, requires_grad=False).to_dense()
 
             logits, KL, mu_q, std_q, epsilon, sampled_z = self._model.forward(user_batch_tensor)
 
