@@ -1,6 +1,11 @@
 {
-    "value": -Infinity,
-    "study_name": null,
-    "trial_number": null,
-    "params": {}
+    "value": 0.22541979560400147,
+    "study_name": "hhp_Optimization",
+    "trial_number": 8,
+    "params": {
+        "topK": 211,
+        "hybrid_lambda": 0.5605161635834046,
+        "normalize_similarity": true,
+        "implicit": false
+    }
 }
