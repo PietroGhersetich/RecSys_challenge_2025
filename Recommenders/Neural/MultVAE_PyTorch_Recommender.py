@@ -178,18 +178,21 @@ class MultVAERecommender_PyTorch(BaseRecommender, Incremental_Training_Early_Sto
 
         self.warm_user_ids = np.arange(0, self.n_users)[np.ediff1d(sps.csr_matrix(self.URM_train).indptr) > 0]
 
-
-    def _compute_item_score(self, user_id_array, items_to_compute = None):
+    def _compute_item_score(self, user_id_array, items_to_compute=None):
 
         u = user_id_array
 
-        # Transferring only the sparse structure to reduce the data transfer
-        user_batch_tensor = self.URM_train[u]
-        user_batch_tensor = torch.sparse_csr_tensor(user_batch_tensor.indptr,
-                                                    user_batch_tensor.indices,
-                                                    user_batch_tensor.data,
-                                                    size=user_batch_tensor.shape, dtype=torch.float32,
-                                                    device=self.device, requires_grad=False).to_dense()
+        user_batch_matrix = self.URM_train[u]
+
+        user_batch_tensor = torch.sparse_csr_tensor(
+            user_batch_matrix.indptr,
+            user_batch_matrix.indices,
+            user_batch_matrix.data,
+            size=user_batch_matrix.shape,
+            dtype=torch.float32,
+            device=self.device,
+            requires_grad=False
+        ).to_dense()
 
         with torch.no_grad():
             self._model.eval()
@@ -299,7 +302,17 @@ class MultVAERecommender_PyTorch(BaseRecommender, Incremental_Training_Early_Sto
 
             u = np.random.choice(self.warm_user_ids, size=self.batch_size)
 
-            user_batch_tensor = self.URM_train[u]
+            user_batch_matrix = self.URM_train[u]
+
+            user_batch_tensor = torch.sparse_csr_tensor(
+                user_batch_matrix.indptr,
+                user_batch_matrix.indices,
+                user_batch_matrix.data,
+                size=user_batch_matrix.shape,
+                dtype=torch.float32,
+                device=self.device,
+                requires_grad=False
+            ).to_dense()
 
             logits, KL, mu_q, std_q, epsilon, sampled_z = self._model.forward(user_batch_tensor)
 
