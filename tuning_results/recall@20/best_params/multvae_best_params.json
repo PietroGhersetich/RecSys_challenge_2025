@@ -12,5 +12,5 @@
         "n_layers": 1,
         "total_anneal_steps": 44324,
         "epochs": 475
-    },
+    }
 }
