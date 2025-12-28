@@ -1,16 +1,16 @@
 {
-    "value": 0.25312630592817344,
-    "study_name": "multvae_Optimization_v3",
-    "trial_number": 13,
+    "value": 0.23641691745723023,
+    "study_name": "multvae_Optimization_noTorch",
+    "trial_number": 2,
     "params": {
-        "anneal_cap": 0.25356695947785923,
-        "batch_size": 128,
-        "dropout": 0.29640057636622835,
-        "l2_reg": 0.0010694503016373243,
-        "layer_1": 430,
-        "learning_rate": 6.227771202154932e-05,
         "n_layers": 1,
-        "total_anneal_steps": 44324,
-        "epochs": 475
-    },
+        "layer_1": 587,
+        "learning_rate": 0.0016270769204275435,
+        "batch_size": 512,
+        "dropout": 0.532810193804285,
+        "l2_reg": 0.0008095543732110162,
+        "anneal_cap": 0.7874809790272745,
+        "total_anneal_steps": 12690,
+        "epochs": 38
+    }
 }
