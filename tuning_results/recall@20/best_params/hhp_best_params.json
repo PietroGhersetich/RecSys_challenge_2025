@@ -1,10 +1,10 @@
 {
-    "value": 0.24936142465022273,
+    "value": 0.24938601889060302,
     "study_name": "hhp_Optimization_v2",
-    "trial_number": 445,
+    "trial_number": 1307,
     "params": {
-        "topK": 30,
-        "hybrid_lambda": 0.5991581850115423,
+        "topK": 33,
+        "hybrid_lambda": 0.6016251113079928,
         "normalize_similarity": true,
         "implicit": false
     }
