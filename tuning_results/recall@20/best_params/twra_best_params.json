@@ -1,16 +1,16 @@
 {
-    "value": 0.24935659361965593,
+    "value": 0.25757833029491495,
     "study_name": "twra_Optimization",
-    "trial_number": 15,
+    "trial_number": 23,
     "params": {
         "base_f_algorithm": "rp3beta",
         "base_b_algorithm": "rp3beta",
-        "convex_lambda": 0.014575618684559033,
-        "f_rp3_topK": 51,
-        "f_rp3_alpha": 1.1871761719149916,
-        "f_rp3_beta": 0.33536748623144946,
-        "b_rp3_topK": 725,
-        "b_rp3_alpha": 1.4481596402890586,
-        "b_rp3_beta": 0.714374194704088
+        "convex_lambda": 0.15480071984356558,
+        "f_rp3_topK": 69,
+        "f_rp3_alpha": 1.418388068424299,
+        "f_rp3_beta": 0.22026394449518516,
+        "b_rp3_topK": 893,
+        "b_rp3_alpha": 0.5380870098839317,
+        "b_rp3_beta": 0.6481380526257946
     }
 }
