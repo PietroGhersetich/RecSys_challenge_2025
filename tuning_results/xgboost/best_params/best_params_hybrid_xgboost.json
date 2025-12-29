@@ -1,19 +1,19 @@
 {
-    "value": 0.29388559162786476,
+    "value": 0.2940004833568968,
     "study_name": "xgboost_tuning_new_candidate_gen",
-    "trial_number": 129,
+    "trial_number": 131,
     "params": {
         "objective": "rank:ndcg",
-        "n_estimators": 1716,
-        "learning_rate": 0.01113350935531563,
-        "reg_alpha": 0.42429110210634946,
-        "reg_lambda": 0.00644027010956944,
+        "n_estimators": 960,
+        "learning_rate": 0.014544001124347661,
+        "reg_alpha": 0.38060573282789684,
+        "reg_lambda": 0.007613824721897186,
         "max_depth": 7,
-        "max_leaves": 593,
+        "max_leaves": 590,
         "grow_policy": "lossguide",
-        "gamma": 0.5225140982060285,
-        "min_child_weight": 0.6509222192076852,
-        "subsample": 0.6724260237289263,
-        "colsample_bytree": 0.8422901162788007
+        "gamma": 0.506532486922964,
+        "min_child_weight": 0.7939623494960635,
+        "subsample": 0.7235512141907234,
+        "colsample_bytree": 0.8461507135396988
     }
 }
