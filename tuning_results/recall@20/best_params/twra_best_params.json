@@ -1,0 +1,14 @@
+{
+    "value": 0.22976336003589312,
+    "study_name": "twra_Optimization",
+    "trial_number": 0,
+    "params": {
+        "f_topK": 79,
+        "f_alpha": 1.6638313037633483,
+        "f_beta": 0.5525270307930145,
+        "b_topK": 15,
+        "b_alpha": 0.15614324798118817,
+        "b_beta": 0.3464055248941946,
+        "convex_lambda": 0.4558560768516292
+    }
+}
