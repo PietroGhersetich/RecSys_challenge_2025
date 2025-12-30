@@ -1,0 +1,16 @@
+{
+    "value": 0.4290842466111225,
+    "study_name": "twra_Optimization",
+    "trial_number": 95,
+    "params": {
+        "base_f_algorithm": "rp3beta",
+        "base_b_algorithm": "rp3beta",
+        "convex_lambda": 0.40298368792390793,
+        "f_rp3_topK": 27,
+        "f_rp3_alpha": 1.0710928735437681,
+        "f_rp3_beta": 0.3186547296700295,
+        "b_rp3_topK": 784,
+        "b_rp3_alpha": 0.20118782207044666,
+        "b_rp3_beta": 0.6659659703583394
+    }
+}
