@@ -1,10 +1,10 @@
 {
-    "value": 0.44015228049501903,
+    "value": 0.44016261156815456,
     "study_name": "ease_Optimization",
-    "trial_number": 83,
+    "trial_number": 1320,
     "params": {
-        "topK": 827,
-        "l2_norm": 583.4840577918393,
+        "topK": 830,
+        "l2_norm": 573.080532730946,
         "normalize_matrix": false
     }
 }
