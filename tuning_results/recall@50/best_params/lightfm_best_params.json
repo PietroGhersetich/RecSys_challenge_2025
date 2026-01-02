@@ -1,6 +1,13 @@
 {
-    "value": -Infinity,
-    "study_name": null,
-    "trial_number": null,
-    "params": {}
+    "value": 0.30829434114330195,
+    "study_name": "lightfm_Optimization",
+    "trial_number": 3,
+    "params": {
+        "n_components": 90,
+        "item_alpha": 1.1439047878075117e-06,
+        "user_alpha": 0.0001115016326547359,
+        "learning_rate": 0.004433510159909446,
+        "loss": "warp",
+        "sgd_mode": "adagrad"
+    }
 }
