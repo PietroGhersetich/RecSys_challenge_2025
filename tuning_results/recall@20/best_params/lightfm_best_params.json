@@ -9,6 +9,6 @@
         "learning_rate": 0.021106356966864512,
         "loss": "warp",
         "sgd_mode": "adagrad",
-        "epochs": 200
+        "epochs": 215
     }
 }
