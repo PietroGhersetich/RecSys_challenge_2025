@@ -1,19 +1,19 @@
 {
-    "value": 0.29651987376118255,
+    "value": 0.29660460410578177,
     "study_name": "xgboost_tuning",
-    "trial_number": 31,
+    "trial_number": 63,
     "params": {
         "objective": "rank:map",
-        "n_estimators": 2896,
-        "learning_rate": 0.0039574410009636,
-        "reg_alpha": 2.405479871464664e-05,
-        "reg_lambda": 0.5408938010936423,
-        "max_depth": 13,
-        "max_leaves": 195,
+        "n_estimators": 4371,
+        "learning_rate": 0.003457658018185236,
+        "reg_alpha": 0.0011610351040273333,
+        "reg_lambda": 0.6767343977730601,
+        "max_depth": 10,
+        "max_leaves": 337,
         "grow_policy": "lossguide",
-        "gamma": 5.199460202953382e-05,
-        "min_child_weight": 5.342873565022863e-07,
-        "subsample": 0.6668434771182403,
-        "colsample_bytree": 0.4761660862660998
+        "gamma": 4.1407149851506526e-07,
+        "min_child_weight": 6.62808266225427e-06,
+        "subsample": 0.7075929830173355,
+        "colsample_bytree": 0.44496570945018943
     }
 }
