@@ -1,0 +1,13 @@
+{
+    "value": 0.2884004448672706,
+    "study_name": "hybrid_tuning_v12_v4",
+    "trial_number": 74,
+    "params": {
+        "weight_SLIM_Elastic": 0.8541322449044944,
+        "weight_EASE_R": 0.21761411083855906,
+        "weight_IALS": 0.21742150532758298,
+        "weight_RP3_Beta": 0.08288054018350338,
+        "weight_ItemKNN": 0.004702015092101665,
+        "weight_UserKNN": 0.34514154812936004
+    }
+}
