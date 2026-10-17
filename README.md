@@ -15,7 +15,7 @@ The dataset consisted of:
 
 ## Overview
 
-**Final Result**: **Rank #15** on the private leaderboard (`0.52112`, within ~1% of 1st place)
+**Final Result**: **Rank #15** on the private leaderboard (`0.52112`, within ~1% of 1st place) out of 71 teams
 
 The solution employs a three-stage pipeline:
 
