@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 440" width="880" height="440">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="barBase" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="barBestSingle" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="barHybrid" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="barXGB" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background card -->
+  <rect width="880" height="440" rx="16" fill="url(#bgGradient)"/>
+  <rect width="880" height="440" rx="16" fill="none" stroke="#334155" stroke-width="1.5"/>
+
+  <!-- Title & Subtitle -->
+  <text x="40" y="46" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700">
+    Recall@20 Optimization Progression Across Stages
+  </text>
+  <text x="40" y="72" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">
+    Two-stage pipeline: Individual Baselines &#8594; Candidate Generator Hybrid &#8594; XGBoost Re-ranker
+  </text>
+
+  <!-- Grid lines & Y-axis labels -->
+  <g stroke="#334155" stroke-width="1" stroke-dasharray="3 3">
+    <line x1="80" y1="340" x2="840" y2="340" stroke-dasharray="none" stroke="#475569" stroke-width="1.5"/>
+    <line x1="80" y1="271" x2="840" y2="271"/>
+    <line x1="80" y1="203" x2="840" y2="203"/>
+    <line x1="80" y1="169" x2="840" y2="169"/>
+    <line x1="80" y1="134" x2="840" y2="134"/>
+  </g>
+
+  <!-- Y-axis text -->
+  <g fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="end">
+    <text x="70" y="344">0.00</text>
+    <text x="70" y="275">0.10</text>
+    <text x="70" y="207">0.20</text>
+    <text x="70" y="173">0.25</text>
+    <text x="70" y="138">0.30</text>
+  </g>
+
+  <!-- Baseline Reference Line at SLIM = 0.2458 -->
+  <line x1="80" y1="171" x2="840" y2="171" stroke="#60a5fa" stroke-width="1.2" stroke-dasharray="4 4" stroke-opacity="0.75"/>
+  <!-- Label moved to the left to avoid overlaps with bars and badges -->
+  <text x="90" y="163" fill="#93c5fd" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" text-anchor="start" font-weight="600">
+    &#9472;&#9472; Best Single Model Baseline: SLIM ElasticNet (0.2458)
+  </text>
+
+  <!-- BARS -->
+  <!-- Bar 1: PureSVD -->
+  <rect x="110" y="222" width="72" height="118" rx="6" fill="url(#barBase)"/>
+  <text x="146" y="214" fill="#e2e8f0" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">0.1716</text>
+  <text x="146" y="362" fill="#cbd5e1" font-family="sans-serif" font-size="12" font-weight="600" text-anchor="middle">PureSVD</text>
+  <text x="146" y="378" fill="#64748b" font-family="sans-serif" font-size="10" text-anchor="middle">Latent Factor</text>
+
+  <!-- Bar 2: RP3beta -->
+  <rect x="214" y="192" width="72" height="148" rx="6" fill="url(#barBase)"/>
+  <text x="250" y="184" fill="#e2e8f0" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">0.2160</text>
+  <text x="250" y="362" fill="#cbd5e1" font-family="sans-serif" font-size="12" font-weight="600" text-anchor="middle">RP3beta</text>
+  <text x="250" y="378" fill="#64748b" font-family="sans-serif" font-size="10" text-anchor="middle">Graph Walk</text>
+
+  <!-- Bar 3: ItemKNN -->
+  <rect x="318" y="190" width="72" height="150" rx="6" fill="url(#barBase)"/>
+  <text x="354" y="182" fill="#e2e8f0" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">0.2185</text>
+  <text x="354" y="362" fill="#cbd5e1" font-family="sans-serif" font-size="12" font-weight="600" text-anchor="middle">ItemKNN</text>
+  <text x="354" y="378" fill="#64748b" font-family="sans-serif" font-size="10" text-anchor="middle">Collaborative</text>
+
+  <!-- Bar 4: EASE^R -->
+  <rect x="422" y="176" width="72" height="164" rx="6" fill="url(#barBase)"/>
+  <text x="458" y="168" fill="#e2e8f0" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">0.2386</text>
+  <text x="458" y="362" fill="#cbd5e1" font-family="sans-serif" font-size="12" font-weight="600" text-anchor="middle">EASE^R</text>
+  <text x="458" y="378" fill="#64748b" font-family="sans-serif" font-size="10" text-anchor="middle">Autoencoder</text>
+
+  <!-- Bar 5: SLIM ElasticNet -->
+  <rect x="526" y="171" width="72" height="169" rx="6" fill="url(#barBestSingle)"/>
+  <text x="562" y="163" fill="#93c5fd" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">0.2458</text>
+  <text x="562" y="362" fill="#93c5fd" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle">SLIM EN</text>
+  <text x="562" y="378" fill="#60a5fa" font-family="sans-serif" font-size="10" text-anchor="middle">Best Single</text>
+
+  <!-- Bar 6: Linear Hybrid -->
+  <rect x="630" y="171" width="72" height="169" rx="6" fill="url(#barHybrid)"/>
+  <text x="666" y="163" fill="#d8b4fe" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">0.2461</text>
+  <text x="666" y="362" fill="#d8b4fe" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle">Stage 2</text>
+  <text x="666" y="378" fill="#c084fc" font-family="sans-serif" font-size="10" text-anchor="middle">Linear Hybrid</text>
+
+  <!-- Bar 7: XGBoost Re-ranker -->
+  <rect x="734" y="136" width="72" height="204" rx="6" fill="url(#barXGB)" filter="url(#glow)"/>
+  <text x="770" y="128" fill="#6ee7b7" font-family="sans-serif" font-size="14" font-weight="800" text-anchor="middle">0.2966</text>
+  <text x="770" y="362" fill="#6ee7b7" font-family="sans-serif" font-size="12" font-weight="800" text-anchor="middle">Stage 3</text>
+  <text x="770" y="378" fill="#34d399" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle">XGBoost Ranker</text>
+
+  <!-- Badge: +20.6% Lift above XGBoost Bar -->
+  <g transform="translate(705, 82)">
+    <rect width="130" height="26" rx="13" fill="#064e3b" stroke="#10b981" stroke-width="1.5"/>
+    <text x="65" y="17" fill="#a7f3d0" font-family="sans-serif" font-size="11" font-weight="800" text-anchor="middle">&#9650; +20.6% LIFT</text>
+  </g>
+
+  <!-- Arrow from SLIM EN to XGBoost -->
+  <path d="M 570 148 Q 650 110 700 110" fill="none" stroke="#34d399" stroke-width="2" stroke-dasharray="3 3"/>
+  <polygon points="705,110 697,106 697,114" fill="#34d399"/>
+</svg>
