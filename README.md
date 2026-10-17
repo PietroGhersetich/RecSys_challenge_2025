@@ -1,6 +1,6 @@
 # Two-Stage Hybrid Recommender System for Recall@20 Optimization
 
-This repository implements a two-stage hybrid recommender system developed for the Recommender Systems challenge at Politecnico di Milano (A.Y. 2025/2026). The goal was to maximize **Recall@20** for top-$N$ movie recommendation with implicit user feedback.
+This repository implements a two-stage hybrid recommender system developed for the Recommender Systems challenge at Politecnico di Milano (A.Y. 2025/2026). The goal was to maximize **Recall@20** for top-N movie recommendation with implicit user feedback.
 
 The dataset consisted of:
 
@@ -11,11 +11,9 @@ The dataset consisted of:
 
 ---
 
-
-
 ## Overview
 
-**Final Result**: **Rank #15** on the private leaderboard (`0.52112`, within ~1% of 1st place) out of 71 teams
+- **Final Result**: **Rank #15** on the private leaderboard (`0.52112`, within ~1% of 1st place) out of a total of 71 teams
 
 The solution employs a three-stage pipeline:
 
@@ -153,7 +151,7 @@ RecSys_challenge_25/
 │   ├── recall@20/
 │   └── recall@50/
 │
-├── assets/                             # Visualizations (Progression chart, leaderboard, feature importance)
+├── assets/                             # Feature importance plots (Gain, Cover, Weight)
 ├── Recommenders/                       # Core recommendation algorithms (Cython-accelerated)
 ├── Data_manager/                       # Data splitters and sparse matrix utilities
 ├── Evaluation/                         # Evaluation metrics (Recall, NDCG, MAP, MRR)
